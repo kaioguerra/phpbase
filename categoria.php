@@ -19,11 +19,8 @@ if(isset($_POST['sub'])){
             <table>
                 <tr>
                     <td>
-                        categoria
-                        <select name="categoria">
-                            <option value="">-select-</option>
-                            <option value="knp">Alimento</option>
-                            <option value="lko">Bebidas</option>
+                           Nome Categoria
+                        <input type="text" name="text">
                     </td>
                 </tr>
                 

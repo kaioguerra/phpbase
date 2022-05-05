@@ -1,9 +1,9 @@
 <?php
 include 'connect.php';
 
-$id = $_GET['idCity']
+$id = $_GET['idProduto']
 
-$sq="delete from city where idCity=$id";
+$sq="delete from produto where idProduto='$_SESSION[idProduto]'";
 mysqli_query($con,$sq);
 header('location:add_district.php');
 ?>
